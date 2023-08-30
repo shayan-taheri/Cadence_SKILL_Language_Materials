@@ -1,0 +1,38 @@
+"Author": Dr. Shayan (Sean) Taheri.
+
+"Document Title": Instructions for Obtaining Outputs of Cadence SKILL Scripts.
+
+"File Content": This file contains information on how to ...
+... obtain the output from a simple script written in
+... "Cadence SKILL Language" without accessing Cadence Virtuoso Studio.
+
+"Instructions":
+
+1. Write your desired simple program in the Cadence SKILL Language.
+
+2. Use a converter tool to translate your SKILL program into a common ...
+... programming language, like Python.
+
+Example Tool: "https://thepythoncode.com/assistant/code-assistant".
+
+3. Execute the converted code in your preferred integrated development ...
+... environment (IDE), for instance, Visual Studio Code to obtain its output.
+
+"Example Code in the Cadence SKILL Language":
+
+(defun hello-world ()
+  (println "Hello, World!"))
+
+(hello-world)
+
+"Converted Example Code in the Python Programming Language":
+
+def hello_world():
+    """
+    This function prints "Hello, World!" when called.
+    """
+    print("Hello, World!")
+
+# Call the function
+hello_world()
+
